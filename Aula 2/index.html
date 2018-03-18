@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Aula 2</title>
+    </head>
+    <body>
+        
+        <h1>Componentes de Formulários</h1>
+        
+        <form action="www.LinkServidorQueVaiEnviar.com" method="get">   <!--post ou get -->
+            <label for="email">E-mail:</label>
+            <input type="text" name="email" id="email" maxlength="50" required/> <br/><br/>
+            
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha" maxlength="8"/> <br/><br/>
+        
+            <label>Numero:</label>
+            <input type="number" name="numero"/> <br/><br/>
+
+            <label>Escolha uma fruta</label>
+            <select name="frutas">
+                <option>Maça</option>
+                <option>Morango</option>
+                <option>Cereja</option>
+                <option>Laranja</option>
+                <option>Abacaxi</option>
+            </select>
+            <br/><br/>
+            
+            <!--<label>Seleção Multiplas</label>
+            <select name="frutas" multiple>
+                <option>Maça</option>
+                <option>Morango</option>
+                <option>Cereja</option>
+                <option>Laranja</option>
+                <option>Abacaxi</option>
+            </select>
+            <br/><br/> -->
+            
+            <input type="checkbox" id="marcar" name=""> <label for="marcar">Receber mensagens de propaganda </label><br/><br/>
+            
+            <input type=radio id="receber_sim" name="selecao"/><label for="receber_sim">Sim</label><br/>
+            <input type="radio" id="receber_nao" name="selecao"/><label for="receber_nao">Não </label><br/><br/>
+            
+            <textarea rows="10" cols="30"></textarea>  <br/><br/>
+            
+            <input type="submit" name="enviar" value="Login"/> <br/><br/>
+            
+        </form>
+    </body>
+</html>

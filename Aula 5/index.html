@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sistemas de Informação</title>
+        
+        <meta mame="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+        
+
+        
+		<style type="text/css">
+            div{
+			border: double;
+			background-color: beige;
+        }
+			</style>
+        
+    </head>
+    <body>
+        <br>
+
+        <div class="container">
+            MEU GRID BOOTSTRAP
+            <div class="row">
+                <div class="col-xs-1">A</div>
+                <div class="col-xs-1">B</div>
+                <div class="col-xs-1">C</div>
+                <div class="col-xs-1">D</div>
+                <div class="col-xs-1">E</div>
+                <div class="col-xs-1">F</div>
+                <div class="col-xs-1">G</div>
+                <div class="col-xs-1">H</div>
+                <div class="col-xs-1">I</div>
+                <div class="col-xs-1">J</div>
+                <div class="col-xs-1">L</div>
+                <div class="col-xs-1">M</div>
+            </div>
+        
+            <div class="row">
+                <div class="col-xs-3">3 colunas</div>
+                <div class="col-xs-2">´</div>
+                <div class="col-xs-2">´</div>
+            </div>
+        
+            <div class="row">
+                <div class="col-xs-1">01</div>
+                <div class="col-xs-2">02</div>
+                <div class="col-xs-4">´</div>
+                <div class="col-xs-2">´</div>
+                <div class="col-xs-1">´</div>
+                <div class="col-xs-2">´</div>
+            </div>
+        </div>
+        <br><br>
+            
+            <!--    table-hover: muda a cor do local que passa o mouse
+                    table-bordered: cria a borda das colunas da tabela
+                    table-striped: estilo zebra, linha com cor, linha sem cor, linha com cor...
+            -->
+        
+            <!-- active: Titulo deixa sinza
+                 info: titulo com azul
+                 success: titulo verde
+                 warning: titulo laranja
+                 danger: vermeleho
+            -->
+        <div class="table-responsive">
+        <div class="table">
+        <table class="table table-bordered table-hover table-striped">
+            <thead> <!-- Cabeçalho da tabela -->
+                <tr class="danger"> 
+                    <th scope="col">No.</th>
+                    <th scope="col">Fruta</th>
+                    <th scope="col">Preço de estoque <br> (Kg)</th>
+                    <th scope="col">Preço/caixa <br> (R$)</th>
+                </tr>
+            </thead>
+            <tbody> <!--Corpo da tabela -->
+                <tr>
+                    <td>1</td>
+                    <td>Morango</td>
+                    <td>450</td>
+                    <td>190,90</td>
+                </tr>
+                
+                <tr>
+                    <td>2</td>
+                    <td>Abacaxi</td>
+                    <td>270</td>
+                    <td>125,90</td>
+                </tr>
+                
+                <tr>
+                    <td>3</td>
+                    <td>Uva</td>
+                    <td>120</td>
+                    <td>200,90</td>
+                </tr> 
+            </tbody>
+            
+            <tfoot> <!--Rodape da tabela -->
+                <tr>
+                    <td colspan="4">Valores para o mês de fevereiro/2018</td>
+                </tr>
+            </tfoot>
+      </table>
+    </div>
+</div>        
+    </body>
+</html>

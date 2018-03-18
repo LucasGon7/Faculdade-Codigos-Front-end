@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+        <meta charset="utf-8">
+        <title>WEB - AULA 6</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6">
+                    <h4>Formúlarios</h4>
+                    <form action="" method="post">
+                    
+                        <div class="form-group has-error">
+                            <label for="email">E-mail</label>
+                            <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+                            <p class="text-danger">campo email deve ser preenchido</p>
+                        </div>
+                    
+                        <div class="form-group has-error">
+                            <label for="senha">Senha</label>
+                            <input type="password" class="form-control" id="senha" placeholder="Digite sua senha">
+                            <p class="text-danger">campo senha deve ser preenchido</p>
+                        </div>
+                        
+                        <div class="form-group has-error">
+                            <button class="btn btn-danger"><span class="glyphicon glyphicon-ok"></span>Login</button>    
+                        </div>
+
+                        <div class="form-group">
+	                        <button class="btn btn-default glyphicon glyphicon-search">Buscar</button>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+            
+            <div class="row">
+                
+                <div class="col-xs-4">
+                    <p>Lista sem marcador</p>
+                    <ul class="list-inline">
+                        <li>Abacaxi</li>
+                        <li>Laranja</li>
+                        <li>Lima</li>
+                        <li>Morango</li>
+                        <li>Maça</li>
+                    </ul>
+                </div>
+                
+                <div class="col-xs-4">
+                    <p>Lista sem marcador</p>
+                    <ul class="list-unstyled">
+                        <li>Abacaxi</li>
+                        <li>Laranja</li>
+                        <li>Lima</li>
+                        <li>Morango</li>
+                        <li>Maça</li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-4">
+                    <p>Lista com marcador</p>
+                    <ul>
+                        <li>Abacaxi</li>
+                        <li>Laranja</li>
+                        <li>Lima</li>
+                        <li>Morango</li>
+                        <li>Maça</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-xs-6">
+                    <h3>Lista de descrição Horizontal</h3>
+                    <dl class="dl-horizontal">
+                        <dt>Abacaxi</dt>
+                            <dd>Abacaxi é uma fruta...</dd>
+                        
+                        <dt>Laranja</dt>
+                            <dd>A laranja é o fruto produzido...</dd>
+                        
+                        <dt>Maça</dt>
+                            <dd>A maça é a fruta pomáceo..</dd>
+                    </dl>
+                </div>
+
+                <div class="col-xs-6">
+                    <h3>Lista de descrição Horizontal</h3>
+                    <dl>
+                        <dt>Abacaxi</dt>
+                            <dd>Abacaxi é uma fruta...</dd>
+                        
+                        <dt>Laranja</dt>
+                            <dd>A laranja é o fruto produzido...</dd>
+                        
+                        <dt>Maça</dt>
+                            <dd>A maça é a fruta pomáceo..</dd>
+                    </dl>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div clas="col-xs-12">
+                    <div class="form-group">
+                        <div class="checkbox-inling">
+                            <label><input type="checkbox" checked>Dragon Ball Z</label>
+
+                            <label><input type="checkbox">Naruto</label>
+
+                            <label><input type="checkbox">Gintama</label>
+
+                            <label><input type="checkbox">Pokemon</label>
+
+                            <label><input type="checkbox">Cavaleiros do Zodiaco</label>
+
+                            <label><input type="checkbox">Digimon</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="btn-group" data-toggle="buttons">
+                            <label class="btn btn-success active">
+                                <input type="checkbox" checked> Star Wars I
+                            </label>
+                            <label class="btn btn-primary">
+                                <input type="checkbox" autocomplete="OFF"> Star Wars II
+                            </label>
+                            <label class="btn btn-danger">
+                                <input type="checkbox" autocomplete="OFF"> Star Wars III
+                            </label>
+                            <label class="btn btn-info">
+                                <input type="checkbox" autocomplete="OFF"> Star Wars IV
+                            </label>
+                            <label class="btn btn-warning">
+                                <input type="checkbox" autocomplete="OFF"> Star Wars V
+                            </label>
+                            <label class="btn btn-muted">
+                                <input type="checkbox" autocomplete="OFF"> Star Wars VI
+                            </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
